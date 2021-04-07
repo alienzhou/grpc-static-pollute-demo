@@ -39,7 +39,7 @@ npm run start:correct-4
 
 代码创建了如下一个对象：
 
-```
+```javascript
 global.exampleObj = {
     name: 'AlienZHOU',
     setName: function (params) {
@@ -52,18 +52,18 @@ global.exampleObj = {
 
 运行正确代码：
 
-```
+```bash
 node simple-demo/correct.js
 
-// 输出：Modified
-// 符合预期
+# 输出：Modified
+# 符合预期
 ```
 
 运行错误代码：
 
-```
+```bash
 node simple-demo/error.js
 
-// 输出：AlienZHOU
-// name 未修改，不符合预期
+# 输出：AlienZHOU
+# name 未修改，不符合预期
 ```
