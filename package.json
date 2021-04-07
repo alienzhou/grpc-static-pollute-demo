@@ -1,0 +1,30 @@
+{
+  "name": "grpc-static-conflict-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node server/index.js",
+    "client:error": "ts-node src/error.ts",
+    "client:correct-1": "ts-node src/correct-1.ts",
+    "client:correct-2": "ts-node src/correct-2.ts",
+    "client:correct-3": "ts-node src/correct-3.ts",
+    "client:correct-4": "ts-node src/correct-4.ts",
+    "start:error": "run-p serve client:error",
+    "start:correct-1": "run-p serve client:correct-1",
+    "start:correct-2": "run-p serve client:correct-2",
+    "start:correct-3": "run-p serve client:correct-3",
+    "start:correct-4": "run-p serve client:correct-4",
+    "build": "tsc --build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.2.12",
+    "google-protobuf": "^3.16.0-rc.1",
+    "grpc-tools": "^1.11.1",
+    "npm-run-all": "^4.1.5",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}

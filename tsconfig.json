@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "strictPropertyInitialization": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "target": "es2018",
+    "sourceMap": false,
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "incremental": true,
+    "allowJs": true,
+    "lib": [
+      "es2018"
+    ]
+  },
+  "exclude": ["node_modules", "lib", "server"]
+}
