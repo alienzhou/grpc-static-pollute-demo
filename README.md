@@ -8,7 +8,7 @@
 ```bash
 npm i
 ```
-## 运行
+## 运行示例效果
 
 ### 1、运行异常case
 
@@ -34,7 +34,7 @@ npm run start:correct-3
 npm run start:correct-4
 ```
 
-## 简单示例
+## 另一个更简单的示例
 
 同时 demo 还配套了一个极简版示例。在 `simple-demo` 目录下。
 
